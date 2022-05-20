@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <title>flexbox</title>
+    <style>
+        .container {
+            background-color: rgba(30, 172, 25, 0.603);
+            padding: 16px;
+            height: 500px;
+            /* comando para flexibilizar o conteudo do container */
+            display: flex;
+            flex-direction: row;
+            justify-content: center
+            align-items: flex-end;
+            flex-wrap: wrap;
+            align-content: center;
+            row-gap: 16px;
+            column-gap: 16px;
+            
+        }
+
+        * {
+            margin: 0;
+        }
+
+        .caixa-1 {
+            background-color: rgb(9, 147, 147);
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 16px;
+        }
+
+        .caixa-2 {
+            
+            background-color: rgb(228, 145, 43);
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 16px ;
+
+        }
+
+        .caixa-3 {
+            background-color: rgb(188, 30, 188);
+            height: 150px;
+            width: 150px;
+            text-align: center;
+            font-size: 40px;
+            border-radius: 16px ;
+
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container">
+        <div class="caixa-1">1</div>
+        <div class="caixa-2">2</div>
+        <div class="caixa-3">3</div>
+
+        <div class="caixa-1">4</div>
+        <div class="caixa-2">5</div>
+        <div class="caixa-3">6</div>
+
+        <div class="caixa-1">7</div>
+        <div class="caixa-2">8</div>
+        <div class="caixa-3">9</div>
+
+        <div class="caixa-1">10</div>
+        <div class="caixa-2">11</div>
+        <div class="caixa-3">12</div>
+
+    </main>
+
+</body>
+
+</html>
