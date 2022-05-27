@@ -1,4 +1,4 @@
-/* .classe #id so o nome é o elemento*/
+/* .classe #id so o nome é o elemento e * é para tudo*/
 *{
     margin: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -7,7 +7,22 @@ header{
 display: flex;
 justify-content: space-around;
 border: 3px solid #b10598;
-background-color: #02A9E0;
+background-color: #406891;
 height: 80px;
 align-items: center;
+}
+
+#pesquisa{
+border: 10px #037CFC;
+height: 30px;
+border-radius: 5px;
+/* margin-left: 5px; */
+padding-left: 5px;
+}
+
+#bt_pesquisar{
+    height: 30px;
+    border-radius: 5px;
+    border: 10px #037CFC;
+    cursor: pointer;
 }
