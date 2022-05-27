@@ -1,0 +1,13 @@
+/* .classe #id so o nome é o elemento*/
+*{
+    margin: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+display: flex;
+justify-content: space-around;
+border: 3px solid #b10598;
+background-color: #02A9E0;
+height: 80px;
+align-items: center;
+}
