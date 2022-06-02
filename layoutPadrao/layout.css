@@ -3,6 +3,7 @@
     margin: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 header{
 display: flex;
 justify-content: space-around;
@@ -25,4 +26,11 @@ padding-left: 5px;
     border-radius: 5px;
     border: 10px #037CFC;
     cursor: pointer;
+}
+
+#bt_pesquisar:hover{
+    background-color: coral;
+}
+header:hover{
+    background-color: black;
 }
