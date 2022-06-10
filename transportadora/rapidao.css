@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: aliceblue;
+    background-color: #232323;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#topo {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    /*somente para visualizar os pedaços*/
+}
+
+header {
+    width: 980px;
+    height: 50px;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 350px 630px;
+    border: 1px solid red;
+    /*somente para visualizar os pedaços*/
+}
+
+header div {
+    /*formata o DIV que esta dentro do headre*/
+    border: 1px solid black;
+    /*somente para visualizar*/
+}
+
+header #header-contato {
+    text-align: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    /*formatando todos os elementos separados entre as ,*/
+    margin: 0 0 0 0;
+    font-size: 1.5em;
+    /*faz o tamanho 1.5x o tamanho referencia do "pai"*/
+    font-weight: normal;
+}
+
+#grupo h1 {
+    /* todo h1 dentro do ID grupo*/
+    font-size: 2em;
+}
+
+#grupo h2 {
+    /*todo h2 dentro do ID grupo*/
+    font-size: 1em;
+}
+
+header #header-contato li {
+    display: inline-block;
+    /*coloca um do lado do outro*/
+    border-left: 1 px solid white;
+    padding: 0 0 0 15px;
+    margin: 0 0 0 15px;
+}
+
+header #header-contato li:first-child {
+    /* pega somente o primeiro LI*/
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#topo,
+#topo a {
+    color: aliceblue;
+    background-color: #333333;
+    text-decoration: none;
+}
+
+/*alinhar o icone ao texto, icone e-mail e telefone*/
+span.material-icons {
+    vertical-align: middle;
+}
+
+/*menu*/
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+nav {
+    width: 980px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: 1px solid red;
+    /* para ver o conteiner que gerou*/
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    /*estilo dos marcadores da lista*/
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+nav li {
+    float: left;
+    display: inline-block;
+    margin: 0 30px 0 0;
+    border: 1px solid red;
+    /* so para visualização */
+}
+
+nav li a {
+    display: block;
+    padding: 20px 0;
+    /*quando eu coloco 2 valores, o primeiro é de cima e em baixo, o segundo é dos lados*/
+    font-weight: bold;
+}
+
+nave.home li.link_home a,
+nav a:hover {
+    color: #919191;
+}
+
+main {
+
+    width: 980px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row; /*colum*/
+    justify-content: center; /*space-between*/
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 40px;
+    border: 1px solid red;
+}
+.sectionMain{
+    width: 190px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.sectionMain h1{
+
+}
